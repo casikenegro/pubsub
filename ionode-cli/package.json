@@ -1,0 +1,15 @@
+{
+  "name": "ionode-cli",
+  "version": "1.0.0",
+  "description": "IoT Platform - IoNode CLI",
+  "bin": "ionode.js",
+  "license": "MIT",
+  
+  "dependencies": {
+    "blessed": "0.1.81",
+    "blessed-contrib": "4.8.19",
+    "ionode-agent": "file:../ionode-agent",
+    "moment": "2.24.0",
+    "nodemon": "^2.0.13"
+  }
+}

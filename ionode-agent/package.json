@@ -1,0 +1,19 @@
+{
+  "name": "ionode-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IoT Platform - IoNode Agent",
+  "main": "src/index.js",
+  "scripts": {
+    "examples": "node src/examples/index"
+  },
+  "license": "MIT",
+  
+  "dependencies": {
+    "debug": "4.1.1",
+    "defaults": "1.0.3",
+    "ionode-tools": "file:../ionode-tools",
+    "mqtt": "3.0.0",
+    "uuid": "7.0.3"
+  }
+}

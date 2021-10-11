@@ -1,0 +1,24 @@
+{
+  "name": "ionode-mqtt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IoT Platform - IoNode MQTT",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "DEBUG=ionode:* nodemon src/server.js",
+    "start": "NODE_ENV=production node src/server"
+  },
+  "license": "MIT",
+  
+  "dependencies": {
+    "aedes": "0.42.1",
+    "aedes-persistence-redis": "7.0.0",
+    "chalk": "4.0.0",
+    "debug": "4.1.1",
+    "dotenv": "8.2.0",
+    "ionode-db": "file:../ionode-db",
+    "ionode-tools": "file:../ionode-tools",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13"
+  }
+}

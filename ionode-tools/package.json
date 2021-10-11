@@ -1,0 +1,14 @@
+{
+  "name": "ionode-tools",
+  "version": "1.0.0",
+  "description": "IoT Platform - IoNode Tools",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "license": "MIT",
+  
+  "dependencies": {
+    "chalk": "4.0.0",
+    "dotenv": "8.2.0"
+  }
+}
